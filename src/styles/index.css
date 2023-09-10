@@ -1,1 +1,139 @@
 /* Desenvolva sua estilização aqui ... */
+
+h2 {
+  color: var(--color-grey-1);
+}
+
+/* header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 62px 0px;
+}
+
+.header h1 {
+  font-size: var(--font-1);
+  font-weight: bold;
+  color: var(--color-grey-1);
+}
+
+.buttonDarkMode {
+  display: flex;
+  align-items: center;
+  border: none;
+  padding: 10px 9px;
+  border-radius: 4px;
+  background-color: var(--color-grey-8);
+}
+
+/* filters button */
+
+.filters {
+  margin-bottom: 60px;
+}
+
+.title__genre {
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.filters__genre {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 36px;
+  margin-bottom: 62px;
+}
+
+.filters__genre li button {
+  border: none;
+  border-radius: 4px;
+  padding: 10px 14px;
+
+  background-color: var(--color-grey-8);
+  color: var(--color-grey-2);
+
+  font-size: var(--font-2);
+  font-weight: 500;
+}
+
+/* filter genre */
+
+.filter__range h2, .price {
+  font-weight: 600;
+}
+
+.range__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+#rangeAlbuns {
+  width: 100%;
+}
+
+/* albuns */
+
+.albuns h2 {
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+}
+
+.descriptionAlbum {
+  color: var(--color-grey-2);
+  display: flex;
+  flex-direction: column;
+  padding: 20px 16px;
+}
+
+.card div {
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.albumName {
+  margin-bottom: 20px;
+}
+
+.descriptionAlbum h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.info__buy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info__buy p {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.info__buy button {
+  border: none;
+  border-radius: 4px;
+  padding: 10px 14px;
+
+  background-color: var(--color-grey-7);
+  color: var(--color-grey-2);
+
+  font-size: var(--font-2);
+  font-weight: 500;
+}

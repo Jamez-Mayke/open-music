@@ -47,4 +47,6 @@ body {
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   background-color: var(--color-grey-9);
+  width: 800px;
+  margin: auto;
 }

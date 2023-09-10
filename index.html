@@ -16,29 +16,31 @@
 </head>
 
 <body>
-  <header>
+  <header class="header">
     <h1>Open Music</h1>
-    <button>dark mode</button>
+    <button class="buttonDarkMode">
+      <img src="./src/assets/img/moon.svg" alt="Ícone lua: dark mode" />
+    </button>
   </header>
   <main>
     <section class="filters">
-      <h2>Gênero Musical</h2>
+      <h2 class="title__genre">Gênero Musical</h2>
 
       <ul class="filters__genre">
 
       </ul>
 
       <div class="filter__range">
-        <div>
+        <div class="range__title">
           <h2>Definir Preço</h2>
-          <p>Até R$ ...</p>
-          <input type="range" name="" id="">
+          <p class="price">Até R$ 0,00</p>
         </div>
+        <input type="range" value="0" min="0" max="240" name="rangeAlbuns" id="rangeAlbuns" />
       </div>
     </section>
 
     <section class="albuns">
-      <h2>Álbuns Encontrados</h2>
+      <h2>Albums Encontrados</h2>
       <ul class="cards">
 
       </ul>
